@@ -3,28 +3,30 @@
     "owner": "saniiarov",
     "repo": "gql-gateway",
     "ref": "master",
-    "definition": "schema/schema.graphql"
+    "path": "schema/schema.graphql"
   },
   "link": {
     "owner": "saniiarov",
     "repo": "gql-gateway",
     "ref": "master",
-    "definition": "schema/link.graphql"
+    "path": "schema/link.graphql"
   },
-  "services": {
-    "user": {
+  "services": [
+    {
       "diff": true,
+      "name": "user",
       "owner": "saniiarov",
       "repo": "gql-schema",
       "ref": "master",
-      "definition": "schema/user.graphql"
+      "path": "schema/user.graphql"
     },
-    "post": {
+    {
       "diff": true,
+      "name": "post",
       "owner": "saniiarov",
       "repo": "gql-schema",
       "ref": "master",
-      "definition": "schema/post.graphql"
+      "path": "schema/post.graphql"
     }
-  }
+  ]
 }
