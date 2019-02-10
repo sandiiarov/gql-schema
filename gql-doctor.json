@@ -1,21 +1,30 @@
 {
-  "services": {
-    "user": {
-      "definition": "schema/user.graphql",
-      "endpoint": "http://localhost:4001/graphql"
-    },
-    "post": {
-      "definition": "schema/post.graphql",
-      "endpoint": "http://localhost:4002/graphql"
-    },
-    "link": {
-      "definition": "schema/link.graphql"
-    }
-  },
-  "validate": {
+  "gateway": {
     "owner": "saniiarov",
     "repo": "gql-gateway",
     "ref": "master",
-    "path": "schema/schema.graphql"
+    "definition": "schema/schema.graphql"
+  },
+  "link": {
+    "owner": "saniiarov",
+    "repo": "gql-gateway",
+    "ref": "master",
+    "definition": "schema/link.graphql"
+  },
+  "services": {
+    "user": {
+      "diff": true,
+      "owner": "saniiarov",
+      "repo": "gql-schema",
+      "ref": "master",
+      "definition": "schema/user.graphql"
+    },
+    "post": {
+      "diff": true,
+      "owner": "saniiarov",
+      "repo": "gql-schema",
+      "ref": "master",
+      "definition": "schema/post.graphql"
+    }
   }
 }
