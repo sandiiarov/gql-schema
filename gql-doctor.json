@@ -1,20 +1,7 @@
 {
-  "gateway": {
-    "owner": "sandiiarov",
-    "repo": "gql-gateway",
-    "ref": "master",
-    "path": "schema/schema.graphql"
-  },
-  "link": {
-    "owner": "sandiiarov",
-    "repo": "gql-gateway",
-    "ref": "master",
-    "path": "schema/link.graphql"
-  },
   "services": [
     {
       "diff": true,
-      "name": "user",
       "owner": "sandiiarov",
       "repo": "gql-schema",
       "ref": "master",
@@ -22,11 +9,16 @@
     },
     {
       "diff": true,
-      "name": "post",
       "owner": "sandiiarov",
       "repo": "gql-schema",
       "ref": "master",
       "path": "schema/post.graphql"
     }
-  ]
+  ],
+  "link": {
+    "owner": "sandiiarov",
+    "repo": "gql-gateway",
+    "ref": "master",
+    "path": "schema/link.graphql"
+  }
 }
