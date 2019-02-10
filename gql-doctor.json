@@ -1,12 +1,12 @@
 {
   "gateway": {
-    "owner": "saniiarov",
+    "owner": "sandiiarov",
     "repo": "gql-gateway",
     "ref": "master",
     "path": "schema/schema.graphql"
   },
   "link": {
-    "owner": "saniiarov",
+    "owner": "sandiiarov",
     "repo": "gql-gateway",
     "ref": "master",
     "path": "schema/link.graphql"
@@ -15,7 +15,7 @@
     {
       "diff": true,
       "name": "user",
-      "owner": "saniiarov",
+      "owner": "sandiiarov",
       "repo": "gql-schema",
       "ref": "master",
       "path": "schema/user.graphql"
@@ -23,7 +23,7 @@
     {
       "diff": true,
       "name": "post",
-      "owner": "saniiarov",
+      "owner": "sandiiarov",
       "repo": "gql-schema",
       "ref": "master",
       "path": "schema/post.graphql"
