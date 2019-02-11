@@ -4,10 +4,10 @@ input UserWhereInput {
 
 type User {
   id: ID!
-  a: String!
 }
 
 type Query {
+  a: String!
   user(where: UserWhereInput!): User!
   users: [User!]!
 }
