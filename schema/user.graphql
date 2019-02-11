@@ -4,6 +4,7 @@ input UserWhereInput {
 
 type User {
   id: ID!
+  a: String!
 }
 
 type Query {
