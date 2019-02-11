@@ -9,6 +9,5 @@ type User {
 }
 
 type Query {
-  user(where: UserWhereInput!): User!
   users: [User!]!
 }
