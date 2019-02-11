@@ -5,7 +5,7 @@ input UserWhereInput {
 
 type User {
   id: ID!
-  s: ID!
+  name: ID!
 }
 
 type Query {
